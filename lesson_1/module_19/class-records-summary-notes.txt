@@ -1,0 +1,44 @@
+SSIGNMENT ===
+==================
+https://launchschool.com/lessons/bfc761bc/assignments/ff1533e4
+
+==========================
+=== REQUIREMENTS NOTES ===
+========================== 
+- Weights
+  - Exams: 65%
+  - Exercises: 35%
+- (4) exam per term, several exercises
+- Exams have top score of 100
+- Exercises various score max, but max total is 100
+- Calculating score:
+  - Average score from 4 exams
+  - Sum all exercise scores
+  - Apply Weights
+  - Determine letter equivalent
+- Make sure to round average exam scores to one decimal place
+
+=================
+=== ALGORITHM ===
+=================
+Process 1: Generate array of studentGrades
+- Create new tracker object tracking aggregate stats for each 
+  student
+- For each student
+- Get average exam score
+  - Loop through each student record
+  - Loop through exams array and calculate total score
+  - Divide total score by length of exams array
+- Get total exercise score
+- Apply weights and round result
+- Determine letter grade
+
+Process 2: Generate array of exam stats
+- Create an object to contain stats for each exam
+- Loop through student records
+- For each exam, grab the student score and store in an array
+- Calculate average and store in object
+- Calculate min and store in object
+- Calculate max and store in object
+
+Process 3: Bring it all together
